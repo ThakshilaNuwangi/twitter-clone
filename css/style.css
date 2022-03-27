@@ -42,8 +42,65 @@
     margin-right: 20px;
     color: black;
 }
+.tweet-btn{
+    border-radius: 20px;
+    margin-top: 50px;
+    width: 250px;
+    background-color: rgb(29, 155, 240);
+    border:  none;
+    color: white;
+}
 
 #home{
     border-left: 1px solid #ecf0f1;
     border-right: 1px solid #ecf0f1;
+}
+#title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+#sec-1{
+    border-bottom: 1px solid #ecf0f1;
+    padding: 20px;
+}
+#sec-1 #pro-pic{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: rgb(29, 155, 240);
+    display: inline-block;
+}
+#sec-1>span{
+    font-size: 20px;
+    color: #8395a7;
+    display: inline-block;
+    position: relative;
+    top: -20px;
+    margin-left: 20px;
+}
+.post-pro-pic{
+    width: 30px;
+    height:30px;
+    border-radius: 100%;
+     background-color: red; 
+    margin: 10px;
+}
+
+.post-pro-name{
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 15px;
+}
+.post-image{
+    width: 500px;
+    height: 400px;
+    margin-top: 20px;
+}
+.col-lg{
+    padding: 20px;
+}
+.col-lg ion-icon{
+    color: #8395a7;
+    font-size: 25px;
 }
